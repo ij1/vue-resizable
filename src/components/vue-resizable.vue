@@ -137,8 +137,6 @@
         computed: {
             style() {
                 return {
-                    width: typeof this.w === "number" ? this.w + 'px' : this.w,
-                    height: typeof this.h === "number" ? this.h + 'px' : this.h,
                     left: typeof this.l === "number" ? this.l + 'px' : this.l,
                     top: typeof this.t === "number" ? this.t + 'px' : this.t
                 }
